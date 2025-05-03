@@ -62,7 +62,7 @@ services:
     # user: {{ CURRENT_ID }}
     shm_size: 2G
     ports:
-      - "19530:19530"
+      - "19531:19530"
     environment:
       <<: *ccache
       OS_NAME: ${OS_NAME}
