@@ -121,7 +121,7 @@ services:
       - PULSAR_GC=-XX:+UseG1GC
     ports:
       - "6650:6650"
-      - "8080:8080"
+      - "8081:8080"
 
   minio:
     image: minio/minio:RELEASE.2023-03-20T20-16-18Z
